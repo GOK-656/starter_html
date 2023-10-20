@@ -6,6 +6,7 @@ h1 {
     font-size: xx-large;
     font-family: Courier, 'Courier New', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+    margin: 20px;
 }
 
 
@@ -125,7 +126,9 @@ GRID index.html
 
 .main-titles{
   text-align: center;
-  text-decoration: underline #470689;
+  text-decoration: #470689;
+  font-style: italic;
+  margin: 20px;
 }
 
 .main-description {
@@ -150,7 +153,7 @@ GRID index.html
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     padding: 10px;
-    margin: 10px;
+    margin: 20px;
     background-color: #7a7bcf;
     grid-gap: 30px;
   }
@@ -175,6 +178,10 @@ GRID index.html
     height: 100%;
     object-fit: cover;
   }
+
+.likes {
+  margin: 20px;
+}
 
 .likes li {
     margin-left: 20px;
@@ -202,7 +209,7 @@ recipes.html
   display: list-item;
   list-style-type: "■";
   margin-left: 50px;
-  padding: 5px;
+  padding: 10px;
 }
 
 .ingredients_steps {
@@ -215,7 +222,7 @@ recipes.html
 
 .ingredients_steps li {
   display: list-item;
-  margin-left: 10px;
+  margin-left: 50px;
   padding: 3px;
 }
 
@@ -280,6 +287,7 @@ travel.html
   grid-template-columns: 3fr 2fr;
   align-items: center;
   background-color: #7a7bcf;
+  margin: 20px;
 }
 
 .travel-gallery figure:nth-child(even){
@@ -287,6 +295,7 @@ travel.html
   grid-template-columns: 2fr 3fr;
   align-items: center;
   background-color: #7a7bcf;
+  margin: 20px;
 }
 
 .travel-gallery img,video {
