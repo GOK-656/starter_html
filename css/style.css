@@ -307,3 +307,20 @@ travel.html
 .travel-gallery figcaption {
   margin: 30px;
 }
+
+@media (prefers-reduced-motion: reduce) {
+  .gif {
+    display: none;
+  }
+
+  .travel-main-imgs{
+    display: block;
+    background-color: #afb0f5;
+  }
+
+  .travel-main-imgs div:last-child{
+    margin: auto;
+    width: 70%;
+  }
+
+}
